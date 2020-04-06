@@ -1,13 +1,14 @@
 #include <stdio.h>
 void main ()
 {
-  int a, i ;
+  int  i ;
   printf ("Enter a no:\n");
-  scanf ("%d", &a);
+  scanf ("%d", &i);
   printf("The decremented value till zero is as follows\n");
-  for (i = a; i > 0; i--)
-    {
-      a=i-1;
-      printf ("\n%d", a);
+  do
+    { 
+      i--;
+      printf ("\n%d", i);
     }
+  while(i>0);
 }
