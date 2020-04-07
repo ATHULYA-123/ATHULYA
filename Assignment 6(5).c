@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main ()
 {
-  int a;
+  double a;
   printf ("Enter the no: to be checked: ");
-  scanf ("%d", &a);
+  scanf ("%lf", &a);
   if (a != 0)
     {
       if (a / 1 == a)
