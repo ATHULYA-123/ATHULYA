@@ -6,7 +6,7 @@ void main ()
   scanf ("%lf", &a);
   if (a != 0)
     {
-      if (a / 1 == a)
+      if (a >0)
 	printf ("\nPOSITIVE");
       else
 	printf ("\nNEGATIVE");
