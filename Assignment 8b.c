@@ -8,16 +8,18 @@ void main ()
   gets (a);
   for (i = 0; i < strlen (a); i++)
     {
-      if (a[i] >=33 && a[i] <= 64)
+      if (a[i] >=33 && a[i] <=47)
 	n++;
-      else if (a[i] >= 91 && a[i] <= 96)
+      else if (a[i] >= 58 && a[i] <=64)
 	n++;
-      else if (a[i] >= 123 && a[i] <= 126)
+      else if (a[i] >=91 && a[i] <=96)
+	n++;
+	 else if (a[i] >=123 && a[i] <=126)
 	n++;
       else if (a[i] >= 65 && a[i] <= 90) m++;
       else if (a[i] >= 97 && a[i] <= 122)
 	m++;
-      else if (a[i] >= 0 && a[i] <= 127)
+      else if (a[i] >= 48 && a[i] <=57)
 	r++;
       else
 	continue;
