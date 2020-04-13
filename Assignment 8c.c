@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include<string.h>
-void
-main ()
+void main ()
 {
   char a[50], b[50];
   int i, j, d, c;
-  d = strlen (a);
   printf ("Enter the string: ");
   scanf ("%s", a);
+  d = strlen (a);
   for (c = 0; c < d; c++)
     {
       for (i = 0; i < d - c; i++)
