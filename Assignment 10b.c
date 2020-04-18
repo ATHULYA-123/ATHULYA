@@ -14,9 +14,9 @@ int fact(n)
   }
   return sum;
 }
-int main()
+void main()
 {
   int n;
   printf("%d",fact(n));
-  getch();
+  
 }
