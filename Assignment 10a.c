@@ -15,7 +15,7 @@ for(i=2;i<n-1;i++)
  }
   }
 printf("Number is prime.\n");
-}return 0;
+}
 }
 int main()
 {
